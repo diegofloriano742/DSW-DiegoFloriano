@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas básicas de HTML, atributos y valores.</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <center>
+
+            <img src="img/unad.png" alt="Etiquetas basicas" style="max-width:10%;width:40%;height:40%;">
+
+        </center>
+    </header>
+    <nav>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .menu-area a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(7, 1, 1);
+                background: rgb(11, 221, 63);
+                height: 50px;
+                text-decoration: none;
+            }
+
+            .menu-area a:hover {
+                background: rgb(16, 12, 236);
+                color: #fff;
+
+            }
+
+            .menu-area ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .menu-area li {
+                position: relative;
+                width: 100%;
+                text-align: center;
+            }
+
+            .menu-area li:hover .dropdown-1>li {
+                top: 0;
+                display: block;
+            }
+
+            .dropdown-1 li {
+                display: none;
+                position: relative;
+            }
+
+            .dropdown-1 {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .dropdown-1 li:hover {
+                display: block;
+            }
+        </style>
+
+        <body>
+            <nav class="menu-area">
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li><a href="#">Temas</a>
+                        <ul class="dropdown-1">
+                            <li><a href="tema1-etiquetas.html">Etiquetas basicas de Html</a></li>
+                            <li><a href="tema2-elementos.html">Elementos, atributos y valores de Html</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Recursos</a>
+                        <ul class="dropdown-1">
+                            <li> <a href="recursos-etiquetas.html">Recursos de HTML</a> </li>
+                            <li><a href="recursos-elementos.html">Recursos de Elementos, atributos y valores</a>
+                            <li><a href="sitiosresponsivos.html">Sitios responsivos con Media Queries</a>
+                            <li><a href="seo.html">Medidas para mejorar el SEO</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Aprendizaje</a>
+                        <ul class="dropdown-1">
+                            <li> <a href="cuestionario1.html">Aprendizaje 1</a> </li>
+                            <li><a href="cuestionario2.html">Aprendizaje 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Autor.html">Autor</a></li>
+                </ul>
+            </nav>
+        </body>
+    
+    </nav>
+
+    <div class="Contenedor">
+        <section>
+            <article>
+                <br>
+                <center>
+
+                    <h2>Sitio web para el aprendizaje de las Etiquetas básicas de HTML, atributos y valores.</h2>
+                    <p>El sitio tiene como propósito enseñar de forma más interactiva al usuario los diferentes temas relacionados con las etiquetas básicas de HTML,<br>
+                        atributos y valores. Se tienen en cuenta los diferentes aspectos, también se observarán imágenes relacionados con el tema. <br>
+                    </p><br><br>
+
+
+
+                    </p>                          
+                </center>
+            </article>
+
+            <aside>
+                <center>
+                    <iframe
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+            </center>
+
+            <center>
+            <footer>
+                <h4>Autor: Diego Alejandro Floriano Vargas<br>
+                Correo: daflorianov@unadvirtual.edu.co<br>
+                Skype: live:diegofloriano742<br>
+                Actualizado al: 10/04/2021
+            </footer>
+        </center>
+
+
+
+
+        </section>
+
+    </div>
+
+    
+
+</body>
+
+</html>
